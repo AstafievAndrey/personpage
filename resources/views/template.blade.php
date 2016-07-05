@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" ng-app="pageApp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +11,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
-    <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{asset('css/material.cyan-light_blue.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
-    <style>
-        #view-source {
-          position: fixed;
-          display: block;
-          right: 0;
-          bottom: 0;
-          margin-right: 40px;
-          margin-bottom: 40px;
-          z-index: 900;
-        }
-    </style>
+    <script src="{{asset('js/angular.min.js')}}"></script>
+    <script src="{{asset('js/angular-cookies.min.js')}}"></script>
+    <script src="{{asset('js/modules.js')}}"></script>
 </head>
 <body>
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
