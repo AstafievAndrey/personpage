@@ -2,25 +2,42 @@
 
 @section('content')
     <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-        <h1>Заголовок</h1>
+        <h1>Волк слабее льва и тигра, но зато в цирке не выступает.</h1>
     </div>
     <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
-      Контент
+        <p>
+            Давно, хотел сделать свой сайт. Наконец то руки дотянулись. 
+            Сейчас он выглядит пусто, много не хватает,так же хотелось бы получать отклик от посетителей, ваше мнение и чего не хватает.
+        </p>
+        <p>
+            Поддержать автора можно если вы постетите вступите в одну из моих группs в ВК:
+        </p>
+        <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+        </ul>
+        <p>
+            Или посетите один из следующих сайтов(возможно они будут вам полезныs):
+        </p>
+        <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+        </ul>
     </div>
     <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
         <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
             <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-                <h2 class="mdl-card__title-text">Updates</h2>
+                <h2 class="mdl-card__title-text">Последние обновление</h2>
             </div>
             <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                Non dolore elit adipisicing ea reprehenderit consectetur culpa.
+                Вышло то-то то-то
             </div>
             <div class="mdl-card__actions mdl-card--border">
-                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
+                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">читать</a>
             </div>
         </div>
          <div class="demo-separator mdl-cell--1-col"></div>
-        <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+<!--        <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
             <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
                 <h3>View options</h3>
                 <ul>
@@ -55,6 +72,6 @@
                 <div class="mdl-layout-spacer"></div>
                 <i class="material-icons">location_on</i>
             </div>
-        </div>
+        </div>-->
     </div>
 @endsection

@@ -20,4 +20,6 @@ Route::get('/', 'MainController@index');
 Route::get('/books', 'BookController@index');
 
 Route::get('/read/{book}', 'BookController@read');
+
+Route::get('/read/{book}/{chapter}', 'BookController@readChapter');
 //Route::get('/read/{book}/{chapter}', 'BookController@read');

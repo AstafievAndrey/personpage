@@ -15,12 +15,15 @@
             <ul ng-show="list">
                 @if(count($chapters)>0)
                     @foreach ($chapters as $chapter)
-                        <li><a href="#">{{$chapter->name}}</a></li>
+                        <li><a href="{{ url('/read/'.$book->translit.'/'.$chapter->translit) }}">{{$chapter->name}}</a></li>
                     @endforeach
                 @else
                     <li>Пока не написано ни одной главы</li>
                 @endif
             </ul>
+            <article>
+                @yield('chapter')
+            </article>
         </div>
     </div>
     <script>

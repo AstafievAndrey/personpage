@@ -36,19 +36,19 @@
                   <label class="mdl-textfield__label" for="search">Enter your query...</label>
                 </div>
               </div>
-              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+<!--              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
                 <i class="material-icons">more_vert</i>
               </button>
               <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
                 <li class="mdl-menu__item">О авторе</li>
                 <li class="mdl-menu__item">Контакты</li>
                 <li class="mdl-menu__item">Инф. о размещении</li>
-              </ul>
+              </ul>-->
             </div>
         </header>
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-          <img src="{{asset('images/user.jpg')}}" class="demo-avatar">
+          <img src="{{asset('images/aan.jpg')}}" class="demo-avatar">
           <div class="demo-avatar-dropdown">
             <span>vk.com/aan</span>
             <div class="mdl-layout-spacer"></div>
